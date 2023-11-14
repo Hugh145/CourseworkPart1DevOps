@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class DexHex {
+class Dex2Hex {
     public static String convertToHexadecimal(int demValue) {
         if (demValue == 0) {
             return ("Please input a non-zero value");
@@ -38,4 +38,4 @@ class DexHex {
         System.out.println("Converting the Decimal Value " + decimalValue + " to Hex...");
         System.out.println("Hexadecimal representation is: " + convertToHexadecimal(decimalValue));
     }
-} 
+}
