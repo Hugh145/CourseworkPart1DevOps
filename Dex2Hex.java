@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Dex2Hex {
     public static String convertToHexadecimal(int demValue) {
         if (demValue == 0) {
-            return ("Please input a non-zero value");
+            return ("Please input  a non-zero value");
         }
         if (demValue < 0) {
             return ("Please input positive numbers only");
